@@ -7,68 +7,23 @@ namespace AccesModifiers_Encapsulation_Readonly
     {
         static void Main(string[] args)
         {
-            int count1 = 1;
-            
-            User[] user = new User[count1];
-            for (int i = 0; i < count1; i++)
-            {
+            Console.Write("Please enter the Username: ");
+            string username = Console.ReadLine();
 
-                string name = GetInputWord("Please enter the name: ",1,20);
+            Console.Write("Please enter the password: ");
+            string password = Console.ReadLine();
 
-                int age = GetInputInt("Please enter the age: ", 1, 100);
+            Console.Write("Please enter the age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-                string password = GetInputWord("Password: ", 8, 100);
+            User user1 = new User(username, password);
 
-                user[i] = new User(name, age, password)
-                {
-                    Name = name,
-                    Age = age,
-                    Password = password
-                };
+            user1.Info();
+            user1.Age = age;
 
-            }
-            foreach (var item in user)
-            {
-                item.GetInfo();
-            }        
-        
-        
+
+
+
         }
-            static int GetInputInt(string name, int minValue, int maxValue)
-        {
-
-
-            int input;
-
-            do
-            {
-                Console.Write(name);
-                input = Convert.ToInt32(Console.ReadLine());
-
-            } while (input < minValue || input > maxValue);
-            return input;
-        }
-
-        static string GetInputWord(string name, int minValue, int maxValue)
-        {
-
-
-            string input;
-
-            do
-            {
-                Console.Write(name);
-                input = Console.ReadLine();
-
-            } while (input.Length < minValue || input.Length > maxValue);
-            return input;
-        }
-
-
-
-
-
-
-
     }
 }

@@ -1,0 +1,1 @@
+AccesModifiers-Encapsulation-Readonly

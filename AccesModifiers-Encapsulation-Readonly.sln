@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesModifiers-Encapsulation-Readonly", "AccesModifiers-Encapsulation-Readonly\AccesModifiers-Encapsulation-Readonly.csproj", "{8FA1A0D4-73B1-493E-92AD-27EC6223B3FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA1A0D4-73B1-493E-92AD-27EC6223B3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA1A0D4-73B1-493E-92AD-27EC6223B3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA1A0D4-73B1-493E-92AD-27EC6223B3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA1A0D4-73B1-493E-92AD-27EC6223B3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96F54C6-9529-4838-98C8-D185C2E547B9}
+	EndGlobalSection
+EndGlobal
